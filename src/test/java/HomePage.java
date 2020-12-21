@@ -3,6 +3,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+/*
+ * @author Aron Meeus, Rick Coremans
+ *
+ * */
+
 public class HomePage  extends Page{
     public HomePage(WebDriver driver) {
         super(driver);

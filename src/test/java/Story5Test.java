@@ -18,6 +18,11 @@ import java.util.Calendar;
 import java.util.NoSuchElementException;
 
 import static org.junit.Assert.assertEquals;
+
+/*
+ * @author Aron Meeus, Rick Coremans
+ *
+ * */
 public class Story5Test {
     /***
      * zorg dat je een test gebruiker hebt waar je contacten aan kunt toevoegen

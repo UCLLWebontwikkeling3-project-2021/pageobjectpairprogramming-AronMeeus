@@ -1,5 +1,10 @@
 import org.openqa.selenium.WebDriver;
 
+/*
+ * @author Aron Meeus, Rick Coremans
+ *
+ * */
+
 public abstract class Page {
 
     WebDriver driver;
