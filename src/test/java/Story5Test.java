@@ -43,10 +43,10 @@ public class Story5Test {
         driver.quit();
     }
     @Test
-    public void not_logged_user_is_redirected_to_error_page_when_link_is_used(){
+    public void not_logged_user_is_redirected_to_Home_page_when_link_is_used(){
         new ContactPage(driver);
         String title = driver.getTitle();
-        assertEquals(title,"error");
+        assertEquals(title,"Home");
     }
 
     @Test
@@ -91,7 +91,7 @@ public class Story5Test {
     public void van_contacten_naar_home_bij_niet_ingelogde_gebruiker_exception() {
         ContactPage page = new ContactPage(driver);
         page.goToHome();
-        assertEquals(driver.getTitle(),"error");
+        assertEquals(driver.getTitle(),"Home");
     }
 
     public void loginTestGebruiker(){
