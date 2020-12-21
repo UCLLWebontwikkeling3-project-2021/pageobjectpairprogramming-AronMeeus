@@ -87,10 +87,9 @@ public class Story5Test {
         page.goToContact();
 
     }
-    @Test(expected = org.openqa.selenium.NoSuchElementException.class)
-    public void van_contacten_naar_home_bij_niet_ingelogde_gebruiker_exception() {
+    @Test
+    public void naar_contacten_pagina_gaan_zonder_in_te_loggen_wordt_geredirected_naar_home() {
         ContactPage page = new ContactPage(driver);
-        page.goToHome();
         assertEquals(driver.getTitle(),"Home");
     }
 
